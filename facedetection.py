@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface.xml")
 img=cv2.imread("lena.png")
 imggray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
